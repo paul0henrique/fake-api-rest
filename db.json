@@ -41,9 +41,7 @@
     { "name": "Queixa respiratória" },
     { "name": "Alterações glicemicas" },
     { "name": "Pressão Alta" },
-    { "name": "Dor cervical" },
-    { "name": "Alteração de temperatura" },
-    { "name": "Edema/Icterícia/Fraqueza/Câimbra" }
+    { "name": "Dor cervical" }
   
   ]
 
