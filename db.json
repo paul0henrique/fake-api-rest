@@ -1,0 +1,7 @@
+{
+  "patients": [
+    { "name": "Ana Sousa", "socialName": "Ana", "cpf": "083.679.877-00", "rg": "987882828-23", "registrationCode": "0988998392392", "motherName": "Sofia Sousa", "ethnicity": "Pardo", "gender": "Feminino" },
+    { "name": "João Santos", "socialName": "João", "cpf": "081.679.877-00", "rg": "917882828-23", "registrationCode": "0981221292392", "motherName": "Amanda Santos", "ethnicity": "Branco", "gender": "Masculino" },
+    { "name": "Pedro Silva", "socialName": "Pedro", "cpf": "080.679.877-00", "rg": "987782828-23", "registrationCode": "09998998392392", "motherName": "Josefa Silva", "ethnicity": "Preta", "gender": "Feminino" }
+  ]
+}
