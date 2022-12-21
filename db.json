@@ -6,8 +6,46 @@
   ],
 
   "sectors": [
-    { "name": "Sala vermelha"},
-    { "name": "Sala 2"},
-    { "name": "Sala 3"}
+    { "name": "Sala vermelha" },
+    { "name": "Sala 2" },
+    { "name": "Sala 3" }
+  ],
+
+  "descriptors": [
+    { "name": "Agressão" },
+    { "name": "Corpo estranho" },
+    { "name": "Feridas" },
+    { "name": "Mordeduras e Picadas" },
+    { "name": "Dor lombar" },
+    { "name": "Afecções Cultâneas" },
+    { "name": "Quedas" },
+    { "name": "Queimaduras" },
+    { "name": "Trauma cranioencefalico" },
+    { "name": "Trauma maior" },
+    { "name": "Trauma toracoabdominal" },
+    { "name": "Dor torácica" },
+    { "name": "Alergia" },
+    { "name": "Cefaleia" },
+    { "name": "Dor de Garganta" },
+    { "name": "Dor de abdominal em adulto" },
+    { "name": "Dor de cabeça" },
+    { "name": "Dor de ouvido e garganta" },
+    { "name": "Erupção cutânea" },
+    { "name": "Mordedura de animal" },
+    { "name": "Intoxicação Adulta" },
+    { "name": "Sangramento" },
+    { "name": "Queixas moculares" },
+    { "name": "Queixa Urinária" },
+    { "name": "Feridas e Abcessos" },
+    { "name": "Crise convulsiva" },
+    { "name": "Queixa respiratória" },
+    { "name": "Alterações glicemicas" },
+    { "name": "Pressão Alta" },
+    { "name": "Dor cervical" },
+    { "name": "Alteração de temperatura" },
+    { "name": "Edema/Icterícia/Fraqueza/Câimbra" }
+  
   ]
+
+
 }
