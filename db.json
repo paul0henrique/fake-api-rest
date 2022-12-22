@@ -12,14 +12,14 @@
   ],
 
   "descriptors": [
-    { "id": 1, "name": "Agressão" },
-    { "id": 2, "name": "Corpo estranho" },
+    { "id": 1, "name": "Parada cardiorespiratória" },
+    { "id": 2, "name": "Queimaduras" },
     { "id": 3, "name": "Feridas" },
     { "id": 4, "name": "Mordeduras e Picadas" },
     { "id": 5, "name": "Dor lombar" },
     { "id": 6, "name": "Afecções Cultâneas" },
     { "id": 7, "name": "Quedas" },
-    { "id": 8, "name": "Queimaduras" },
+    { "id": 8, "name": "Corpo estranho" },
     { "id": 9, "name": "Trauma cranioencefalico" },
     { "id": 10, "name": "Trauma maior" },
     { "id": 11, "name": "Trauma toracoabdominal" },
@@ -42,8 +42,32 @@
     { "id": 28, "name": "Alterações glicemicas" },
     { "id": 29, "name": "Pressão Alta" },
     { "id": 30, "name": "Dor cervical" }
-  
-  ]
+  ],
 
+  "subdescriptors": [
+    { "descriptorID": 1, "tag": "vermelho", "name": "AUSÊNCIA DE PULSO EM GRANDES ARTÉRIAS"},
+    { "descriptorID": 1, "tag": "vermelho", "name": "AUSÊNCIA DE MOVIMENTOS RESPIRATÓRIOS"},
+    { "descriptorID": 1, "tag": "vermelho", "name": "CIANOSE"},
+    { "descriptorID": 1, "tag": "vermelho", "name": "LETARGIA OU INCONSISTÊNCIA"},
+
+    { "descriptorID": 2, "tag": "vermelho", "name": "FC ≤ 50 ou ≥ 120 bpm"},
+    { "descriptorID": 2, "tag": "vermelho", "name": "PAS ≤ 90 ou ≥ 220 / PAD ≤ 80 ou ≥ 130 mmHg"},
+    { "descriptorID": 2, "tag": "vermelho", "name": "TEMP AXILAR ≤ 35 ou ≥ 40ºC"},
+    { "descriptorID": 2, "tag": "vermelho", "name": "FR ≤ 10 ou ≥ 25 ipm"},
+    { "descriptorID": 2, "tag": "vermelho", "name": "SPO2 ≤ 92%"},
+    { "descriptorID": 2, "tag": "vermelho", "name": "ASSOCIADAS A POLITRAUMA"},
+
+    { "descriptorID": 2, "tag": "amarelo", "name": "SINAIS VITAIS NORMAIS"},
+    { "descriptorID": 2, "tag": "amarelo", "name": "QUEIMADURAS DE 2o GRAU COM SCQ ENTRE 10% e 20 %"},
+    { "descriptorID": 2, "tag": "amarelo", "name": "QUALQUER QUEIMADURA DE 2o GRAU EM MÃOS/ PÉS/ FACE/ PESCOÇO OU ARTICULAÇÕES"},
+    { "descriptorID": 2, "tag": "amarelo", "name": "QUEIMADURAS QUE NÃO ENVOLVAM MÃOS/ PÉS/ FACE/ PERÍNEO DE 3o GRAU COM ATÉ 10% SCQ"},
+
+    { "descriptorID": 2, "tag": "verde", "name": "SINAIS VITAIS NORMAIS"},
+    { "descriptorID": 2, "tag": "verde", "name": "QUEIMADURAS DE 1o GRAU EM QUALQUER EXTENSÃO"},
+    { "descriptorID": 2, "tag": "verde", "name": "QUEIMADURAS DE 2o GRAU COM SCQ TM10%"},
+    
+    { "descriptorID": 2, "tag": "azul", "name": "TROCA DE CURATIVOS"}
+
+  ]
 
 }
