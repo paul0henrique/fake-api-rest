@@ -67,7 +67,7 @@
     { "descriptorID": 2, "tag": "verde", "name": "QUEIMADURAS DE 2o GRAU COM SCQ TM10%"},
     
     { "descriptorID": 2, "tag": "azul", "name": "TROCA DE CURATIVOS"},
-    { "descriptorID": 2, "tag": "vermelho", "name": "INCONSCIENTE"}
+    { "descriptorID": 10, "tag": "vermelho", "name": "INCONSCIENTE"}
 
   ]
 
